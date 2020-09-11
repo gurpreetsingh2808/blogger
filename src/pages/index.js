@@ -1,12 +1,7 @@
 import React from "react"
 import {Container} from '../components';
 
-// export default function Home() {
-//   return <div>Hello world!</div>
-// }
-
-
-export default function IndexPage() {
+const IndexPage = () => {
   return (
     <Container>
       <h1>Hello World</h1>
@@ -14,4 +9,4 @@ export default function IndexPage() {
   )
 }
 
-// export default IndexPage
+export default IndexPage;
